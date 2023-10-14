@@ -1,5 +1,5 @@
 {
-  "name": "@covalenthq/web3-components",
+  "name": "walletcomponents",
   "keywords": [
     "web3",
     "blockchain",
@@ -10,7 +10,7 @@
   "files": [
     "./dist"
   ],
-  "repository": "https://github.com/covalenthq/web3-components",
+  "repository": "https://github.com/indemnifi/walletcomponents",
   "version": "0.3.5",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
