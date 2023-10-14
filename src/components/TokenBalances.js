@@ -84,7 +84,7 @@ const TokenBalances = ({ address, chainId, nft = true, noNFTFetch = true, quoteC
       onFilter: (value, item) => item.type.startsWith(value)
     },
     {
-      title: 'Contract Address',
+      title: 'Address',
       dataIndex: 'contract_address',
       key: 'contract_address'
     }
