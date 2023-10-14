@@ -46,7 +46,7 @@ const Transactions = ({ address, chainId, ascending = false, noLogs = false, pag
   } else if (isLoading) {
     return <Table loading={true} />
   } else if (!isLoading && txns) {
-    return <Table dataSource={txns} columns={columns(blockexplorerURL)} rowKey="txnHash" />
+    return <Table dataSource={txns} columns={columns(blockexplorerURL)} rowKey="txnHash" style={{ width: '80%' }} />;
   }
 }
 
