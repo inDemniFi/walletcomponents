@@ -40,7 +40,7 @@ const TokenBalances = ({ address, chainId, nft = true, noNFTFetch = true, quoteC
       )
     },
     {
-      title: 'Name',
+      title: 'Token',
       dataIndex: 'contract_name',
       key: 'contract_name'
     },
