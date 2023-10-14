@@ -154,7 +154,7 @@ var TokenBalances = function TokenBalances(_ref) {
       });
     }
   }, {
-    title: 'Name',
+    title: 'Token',
     dataIndex: 'contract_name',
     key: 'contract_name'
   }, {
@@ -192,7 +192,7 @@ var TokenBalances = function TokenBalances(_ref) {
       return item.type.startsWith(value);
     }
   }, {
-    title: 'Contract Address',
+    title: 'Address',
     dataIndex: 'contract_address',
     key: 'contract_address'
   }];
@@ -1338,7 +1338,10 @@ var Transactions = function Transactions(_ref) {
     return /*#__PURE__*/jsx(Table, {
       dataSource: txns,
       columns: columns(blockexplorerURL),
-      rowKey: "txnHash"
+      rowKey: "txnHash",
+      style: {
+        width: '50%'
+      }
     });
   }
 };
